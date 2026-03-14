@@ -55,7 +55,7 @@ Este proyecto forma parte de una serie de proyectos de portafolio:
 
 ## 📸 Preview
 
-
+![FlowPilot preview](preview.png)
 
 ## 👨‍💻 Autor
 
