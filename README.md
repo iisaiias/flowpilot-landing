@@ -7,7 +7,7 @@ Este proyecto fue creado como parte de mi portafolio para demostrar habilidades 
 
 Puedes ver el proyecto aquí:
 
-[https://iisaiias.github.io/flowpilot-landing/](https://github.com/iisaiias/flowpilot-landing)
+[https://iisaiias.github.io/flowpilot-landing/](https://iisaiias.github.io/flowpilot-landing/)
 
 ## 🧠 Descripción
 
