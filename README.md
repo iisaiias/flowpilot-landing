@@ -61,7 +61,6 @@ Este proyecto forma parte de una serie de proyectos de portafolio:
 
 Isaias  
 Desarrollador Frontend
-https://github.com/iisaiias/
 
 GitHub:
-https://github.com/tuusuario
+https://github.com/iisaiias/
