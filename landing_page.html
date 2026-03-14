@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FlowPilot | Organiza tu trabajo sin caos</title>
+  <meta name="description" content="Landing page moderna para una app de productividad. Proyecto de portafolio con diseño responsive, secciones comerciales y microinteracciones." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a href="#top" class="brand" aria-label="FlowPilot inicio">
+        <span class="brand-mark">F</span>
+        <span>FlowPilot</span>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#features">Funciones</a>
+        <a href="#how-it-works">Cómo funciona</a>
+        <a href="#testimonials">Opiniones</a>
+        <a href="#pricing">Precios</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+
+      <div style="display:flex; align-items:center; gap:0.8rem;">
+        <a href="#pricing" class="btn btn-secondary nav-cta">Iniciar prueba</a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal visible">
+          <div class="tag">Productividad sin fricción</div>
+          <h1>
+            Organiza tu equipo y <span class="gradient-text">termina más rápido</span>
+          </h1>
+          <p>
+            FlowPilot centraliza tareas, prioridades, reuniones y automatizaciones en una sola plataforma. Diseñada para equipos que quieren trabajar con claridad, foco y menos caos diario.
+          </p>
+
+          <div class="hero-meta">
+            <span>+12.000 equipos activos</span>
+            <span>99.9% uptime</span>
+            <span>Configuración en 5 minutos</span>
+          </div>
+
+          <div class="btn-group">
+            <a href="#pricing" class="btn btn-primary">Empieza gratis</a>
+            <a href="#showcase" class="btn btn-secondary">Ver demo</a>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal visible">
+          <div class="orb one"></div>
+          <div class="orb two"></div>
+
+          <div class="dashboard-card glass">
+            <div class="dashboard-top">
+              <div>
+                <strong>Workspace Overview</strong><br>
+                <small class="muted">Resumen semanal del equipo</small>
+              </div>
+              <div class="dots" aria-hidden="true">
+                <span></span><span></span><span></span>
+              </div>
+            </div>
+
+            <div class="dashboard-body">
+              <div class="stat-row">
+                <div class="stat-card">
+                  <small>Tareas completadas</small>
+                  <strong>148</strong>
+                </div>
+                <div class="stat-card">
+                  <small>Tiempo ahorrado</small>
+                  <strong>21h</strong>
+                </div>
+                <div class="stat-card">
+                  <small>Proyectos activos</small>
+                  <strong>12</strong>
+                </div>
+              </div>
+
+              <div class="dashboard-main">
+                <div class="chart-card">
+                  <strong>Ritmo de trabajo</strong>
+                  <div class="chart-bars" aria-hidden="true">
+                    <span style="height: 34%;"></span>
+                    <span style="height: 58%;"></span>
+                    <span style="height: 44%;"></span>
+                    <span style="height: 82%;"></span>
+                    <span style="height: 65%;"></span>
+                    <span style="height: 92%;"></span>
+                    <span style="height: 74%;"></span>
+                  </div>
+                </div>
+
+                <div class="task-card">
+                  <strong>Hoy</strong>
+                  <div class="task-list">
+                    <label class="task-item"><input type="checkbox" checked> Revisar roadmap Q3</label>
+                    <label class="task-item"><input type="checkbox" checked> Actualizar landing</label>
+                    <label class="task-item"><input type="checkbox"> Reunión con ventas</label>
+                    <label class="task-item"><input type="checkbox"> Priorizar bugs críticos</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="floating-note glass">
+            <strong>Automatización inteligente</strong>
+            <p class="muted" style="margin:0; font-size:0.95rem;">
+              Crea flujos que asignan tareas, envían recordatorios y actualizan estados sin intervención manual.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container brand-strip reveal">
+        <div class="brand-strip-inner">
+          <div class="brand-pill">NovaLabs</div>
+          <div class="brand-pill">Arctix</div>
+          <div class="brand-pill">PixelForge</div>
+          <div class="brand-pill">Astera</div>
+          <div class="brand-pill">Syncly</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="features">
+      <div class="container">
+        <div class="reveal">
+          <div class="tag">Funciones principales</div>
+          <h2 class="section-title">Todo lo que un equipo moderno necesita para avanzar sin perder tiempo</h2>
+          <p class="section-text" style="max-width: 70ch;">
+            Desde gestión visual de tareas hasta automatizaciones y analítica en tiempo real, FlowPilot está diseñado para reducir la fricción operativa y mejorar la ejecución diaria.
+          </p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card glass reveal">
+            <div class="feature-icon">⚡</div>
+            <h3>Flujos rápidos</h3>
+            <p class="muted">Organiza tareas, prioridades y dependencias con una interfaz intuitiva pensada para trabajar sin interrupciones.</p>
+          </article>
+
+          <article class="feature-card glass reveal">
+            <div class="feature-icon">🤝</div>
+            <h3>Colaboración real</h3>
+            <p class="muted">Comentarios, menciones, archivos y estados compartidos para que todos sepan qué se está haciendo y qué falta.</p>
+          </article>
+
+          <article class="feature-card glass reveal">
+            <div class="feature-icon">📊</div>
+            <h3>Analítica clara</h3>
+            <p class="muted">Métricas visuales sobre ritmo, carga de trabajo y avance para tomar decisiones más rápido y con datos.</p>
+          </article>
+
+          <article class="feature-card glass reveal">
+            <div class="feature-icon">🔁</div>
+            <h3>Automatización</h3>
+            <p class="muted">Reduce tareas repetitivas con reglas simples que asignan responsables y actualizan flujos automáticamente.</p>
+          </article>
+
+          <article class="feature-card glass reveal">
+            <div class="feature-icon">🧩</div>
+            <h3>Integraciones</h3>
+            <p class="muted">Conecta Slack, Google Calendar, Notion y otras herramientas para centralizar la operación diaria.</p>
+          </article>
+
+          <article class="feature-card glass reveal">
+            <div class="feature-icon">🔒</div>
+            <h3>Control y seguridad</h3>
+            <p class="muted">Permisos por equipo, historial de actividad y respaldos constantes para trabajar con confianza.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="how-it-works">
+      <div class="container">
+        <div class="reveal">
+          <div class="tag">Cómo funciona</div>
+          <h2 class="section-title">Empieza rápido y gana claridad desde el primer día</h2>
+        </div>
+
+        <div class="steps">
+          <article class="step-card glass reveal">
+            <div class="step-number">1</div>
+            <h3>Crea tu espacio</h3>
+            <p class="muted">Configura equipos, proyectos y objetivos en minutos con una estructura flexible y fácil de adaptar.</p>
+          </article>
+
+          <article class="step-card glass reveal">
+            <div class="step-number">2</div>
+            <h3>Importa tu trabajo</h3>
+            <p class="muted">Trae tareas desde hojas de cálculo u otras herramientas y mantén todo centralizado desde el inicio.</p>
+          </article>
+
+          <article class="step-card glass reveal">
+            <div class="step-number">3</div>
+            <h3>Automatiza y escala</h3>
+            <p class="muted">Activa reglas, vistas y reportes para ahorrar tiempo y mantener el ritmo de ejecución alto.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="showcase">
+      <div class="container">
+        <div class="reveal">
+          <div class="tag">Casos de uso</div>
+          <h2 class="section-title">Una plataforma flexible para equipos de producto, marketing y operaciones</h2>
+        </div>
+
+        <div class="showcase">
+          <article class="showcase-card glass reveal">
+            <div>
+              <h3>Marketing sin cuellos de botella</h3>
+              <p class="muted">Coordina campañas, piezas, revisiones y calendarios en una sola vista compartida por todo el equipo.</p>
+            </div>
+            <div class="showcase-bubbles">
+              <span>Calendario editorial</span>
+              <span>Briefs</span>
+              <span>Aprobaciones</span>
+            </div>
+          </article>
+
+          <article class="showcase-card glass reveal">
+            <div>
+              <h3>Producto con más visibilidad</h3>
+              <p class="muted">Gestiona bugs, prioridades, releases y feedback de usuarios sin perder contexto entre áreas.</p>
+            </div>
+            <div class="showcase-bubbles">
+              <span>Roadmap</span>
+              <span>Sprints</span>
+              <span>Backlog</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="testimonials">
+      <div class="container">
+        <div class="reveal">
+          <div class="tag">Opiniones</div>
+          <h2 class="section-title">Equipos que recuperaron foco, velocidad y control</h2>
+        </div>
+
+        <div class="testimonials-grid">
+          <article class="testimonial-card glass reveal">
+            <div class="stars">★★★★★</div>
+            <p>“Pasamos de coordinar todo entre mensajes y documentos sueltos a tener una operación ordenada. FlowPilot nos ahorra horas cada semana.”</p>
+            <div class="person">
+              <div class="avatar">AM</div>
+              <div>
+                <strong>Ana Morales</strong><br>
+                <span class="muted">Head of Marketing, NovaLabs</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card glass reveal">
+            <div class="stars">★★★★★</div>
+            <p>“La claridad que da el dashboard y lo fácil que es priorizar tareas cambió la forma en que gestionamos producto y soporte.”</p>
+            <div class="person">
+              <div class="avatar">DL</div>
+              <div>
+                <strong>Diego Lara</strong><br>
+                <span class="muted">Product Manager, Arctix</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card glass reveal">
+            <div class="stars">★★★★★</div>
+            <p>“La implementación fue rápida y el equipo se adaptó sin fricción. La interfaz se siente moderna, ágil y realmente útil.”</p>
+            <div class="person">
+              <div class="avatar">CV</div>
+              <div>
+                <strong>Camila Vera</strong><br>
+                <span class="muted">COO, Syncly</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="pricing">
+      <div class="container">
+        <div class="reveal">
+          <div class="tag">Precios</div>
+          <h2 class="section-title">Planes claros para crecer sin fricción</h2>
+        </div>
+
+        <div class="pricing-grid">
+          <article class="price-card glass reveal">
+            <h3>Starter</h3>
+            <p class="muted">Para equipos pequeños que quieren orden inmediato.</p>
+            <div class="price">$0 <span>/mes</span></div>
+            <ul class="price-list">
+              <li>Hasta 5 usuarios</li>
+              <li>Proyectos ilimitados</li>
+              <li>Vista Kanban y calendario</li>
+              <li>Soporte por email</li>
+            </ul>
+            <a href="#" class="btn btn-secondary" style="width:100%;">Empezar gratis</a>
+          </article>
+
+          <article class="price-card glass popular reveal">
+            <span class="popular-badge">Más elegido</span>
+            <h3>Growth</h3>
+            <p class="muted">Para equipos que necesitan automatizar y escalar.</p>
+            <div class="price">$29 <span>/mes</span></div>
+            <ul class="price-list">
+              <li>Usuarios ilimitados</li>
+              <li>Automatizaciones avanzadas</li>
+              <li>Reportes en tiempo real</li>
+              <li>Integraciones con Slack y Calendar</li>
+            </ul>
+            <a href="#" class="btn btn-primary" style="width:100%;">Probar 14 días</a>
+          </article>
+
+          <article class="price-card glass reveal">
+            <h3>Scale</h3>
+            <p class="muted">Para operaciones complejas con múltiples equipos.</p>
+            <div class="price">$79 <span>/mes</span></div>
+            <ul class="price-list">
+              <li>Permisos avanzados</li>
+              <li>Soporte prioritario</li>
+              <li>Onboarding guiado</li>
+              <li>Analítica personalizada</li>
+            </ul>
+            <a href="#" class="btn btn-secondary" style="width:100%;">Hablar con ventas</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="faq">
+      <div class="container">
+        <div class="reveal">
+          <div class="tag">Preguntas frecuentes</div>
+          <h2 class="section-title">Respuestas rápidas antes de empezar</h2>
+        </div>
+
+        <div class="faq-grid">
+          <article class="faq-item glass reveal active">
+            <button type="button">
+              ¿Puedo usar FlowPilot gratis?
+              <span class="faq-plus">+</span>
+            </button>
+            <div class="faq-answer">
+              Sí. El plan Starter permite organizar proyectos y tareas con hasta 5 usuarios, ideal para probar la plataforma sin costo.
+            </div>
+          </article>
+
+          <article class="faq-item glass reveal">
+            <button type="button">
+              ¿Qué tan rápido puedo implementarlo?
+              <span class="faq-plus">+</span>
+            </button>
+            <div class="faq-answer">
+              La mayoría de los equipos configuran su espacio inicial en menos de 15 minutos. También puedes importar tareas existentes para acelerar el proceso.
+            </div>
+          </article>
+
+          <article class="faq-item glass reveal">
+            <button type="button">
+              ¿Sirve para equipos remotos?
+              <span class="faq-plus">+</span>
+            </button>
+            <div class="faq-answer">
+              Sí. Está pensada para colaborar desde cualquier lugar con comentarios, archivos, vistas compartidas y reportes centralizados.
+            </div>
+          </article>
+
+          <article class="faq-item glass reveal">
+            <button type="button">
+              ¿Puedo cambiar de plan después?
+              <span class="faq-plus">+</span>
+            </button>
+            <div class="faq-answer">
+              Claro. Puedes escalar o bajar de plan cuando quieras según el tamaño y las necesidades de tu equipo.
+            </div>
+          </article>
+        </div>
+
+        <div class="cta-box glass reveal">
+          <div>
+            <div class="tag">Empieza hoy</div>
+            <h2>Menos caos, más ejecución y más visibilidad para todo tu equipo</h2>
+            <p class="muted">Prueba FlowPilot gratis y construye un sistema de trabajo más claro, rápido y escalable desde el primer día.</p>
+            <div class="btn-group">
+              <a href="#" class="btn btn-primary">Crear cuenta gratis</a>
+              <a href="#features" class="btn btn-secondary">Ver funcionalidades</a>
+            </div>
+          </div>
+
+          <div class="cta-stats">
+            <div class="cta-stat">
+              <strong>4.9/5</strong>
+              <span class="muted">Valoración media</span>
+            </div>
+            <div class="cta-stat">
+              <strong>12k+</strong>
+              <span class="muted">Equipos activos</span>
+            </div>
+            <div class="cta-stat">
+              <strong>21h</strong>
+              <span class="muted">Ahorro promedio</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="brand">
+        <span class="brand-mark">F</span>
+        <span>FlowPilot</span>
+      </div>
+
+      <div class="footer-links">
+        <a href="#features">Funciones</a>
+        <a href="#pricing">Precios</a>
+        <a href="#faq">FAQ</a>
+      </div>
+
+      <div>Proyecto de portafolio · 2026</div>
+    </div>
+  </footer>
+
+  <script src="/js/script.js"></script>
+</body>
+</html>
